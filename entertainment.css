@@ -1,0 +1,72 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url(/images/entertainment.png),pointer;
+    background-color: rgb(219, 48, 48);
+    font-family: 'Viaoda Libre', cursive;
+    overflow:scroll ;
+    
+    animation: animate 1s ;
+    
+}
+@keyframes animate{
+    0%{
+        transform: translateX(-400px);
+        opacity: 1;
+    }
+ }
+ 
+
+
+
+
+#container1{
+    height: 500px;
+    width: 100%;
+    opacity: 1;
+    background:url(https://static.toiimg.com/photo/msid-74734687/74734687.jpg?1484479) no-repeat center center/cover;
+}
+#heading1{
+    font-size: 93px;
+    text-align: left;
+    margin-right: 90px;
+    ;
+    color: rgb(22, 19, 21);
+    
+}
+#para1{
+    font-size: 43px;
+    text-align: left;
+    margin-right: 60px;
+    color: white;
+
+
+}
+
+#container2{
+    padding: 20px;
+    
+    margin: 20px;
+    align-items: center;
+
+}
+.fun img{
+    height: 300px;
+    width: 500px;
+}
+#heading2
+{
+    font-size: 43px;
+    /* border: 2px solid black; */
+    background-color: rgb(194, 35, 29);
+}
+
+#heading3
+{
+    font-size: 43px;
+    /* border: 2px solid black; */
+    background-color: rgb(180, 9, 3);
+}

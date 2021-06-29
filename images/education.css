@@ -1,0 +1,203 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url(edu-emoji.png),pointer;
+    background-color: rgb(212, 238, 241);
+    
+    
+}
+#container1{
+    height: 500px;
+    width: 100%;
+    animation: animate 2s ;
+    background:url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1952&q=80) no-repeat center center/cover ;
+}
+@keyframes animate{
+    0%{
+        transform: translatey(-300px);
+    }
+ }
+
+#heading1{
+    font-size: 93px;
+    text-align: right;
+    margin-right: 90px;
+    
+}
+#para1{
+    font-size: 43px;
+    text-align: right;
+    margin-right: 60px;
+
+}
+
+#heading2{
+    text-align: center;
+   font-size: 54px;
+  
+}
+.content {
+    display: flex;
+    /* margin: 420px 0px; */
+    font-size: 20px;
+    font-family: 'KoHo', sans-serif;
+    text-align: center;
+    color: white;
+    
+
+
+}
+
+#content1 {
+    height: 400px;
+    width: 650px;
+    /* border: 2px solid green; */
+    margin: 20px 20px;
+    border-bottom-right-radius: 105px;
+
+    background-color: rgb(9, 1, 133);
+    box-shadow: 10PX 10PX 10px rgb(114, 109, 180);
+    text-align: center;
+    opacity: 0.8;
+    text-decoration: none;
+    
+    
+
+}
+
+#content1:hover {
+    transition-property: all;
+    transform: scale(1.1);
+    transition-duration: 1s;
+  opacity: 1;
+}
+
+#content1 img {
+    height: 170px;
+    width: 280px;
+    margin: 10px;
+    margin-left: 30px;
+
+
+}
+#content1 a{
+    color: white;
+    text-decoration: none;
+}
+
+#content1 a:hover{
+    cursor: url(edu-emoji.png),pointer;
+    color: white;
+}
+
+
+#content2 {
+    height: 400px;
+    width: 650px;
+    margin: 20px 20px;
+    /* border: 2px solid green; */
+    background-color: rgb(9, 1, 133);
+    box-shadow: 10PX 10PX 10px rgb(114, 109, 180);
+    border-bottom-right-radius: 105px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#content2:hover {
+    transition-property: all;
+    transition-duration: 1s;
+  opacity: 1;
+    transform: scale(1.1);
+}
+
+#content2 img {
+    height: 170px;
+    width: 280px;
+    margin: 10px;
+    margin-left: 30px;
+
+
+}
+
+#content3 {
+    height: 400px;
+    width: 650px;
+    margin: 20px 20px;
+    /* border: 2px solid green; */
+    background-color: rgb(9, 1, 133);
+    box-shadow: 10PX 10PX 10px rgb(114, 109, 180);
+   
+    border-bottom-right-radius: 105px;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#content3:hover {
+    transition-property: all;
+    transition-duration: 1s;
+  opacity: 1;
+    transform: scale(1.1);
+}
+
+#content3 img {
+    height: 170px;
+    width: 250px;
+    margin: 10px;
+    margin-left: 30px;
+
+}
+#content4 {
+    height: 400px;
+    width: 650px;
+    margin: 20px 20px;
+    /* border: 2px solid green; */
+    background-color: rgb(9, 1, 133);
+    box-shadow: 10PX 10PX 10px rgb(114, 109, 180);
+    opacity: 0.8;
+    border-bottom-right-radius: 105px;
+
+    text-align: center;
+}
+
+#content4:hover {
+    transition-property: all;
+    transition-duration: 1s;
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+#content4 img {
+    height: 170px;
+    width: 280px;
+    margin: 10px;
+    margin-left: 30px;
+
+
+}
+#neetvideos{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#jeevideos{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#govtvideos{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+#cbsevideos{
+    padding: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 24px;
+}

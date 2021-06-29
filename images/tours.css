@@ -1,0 +1,64 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url(tour.png),pointer;
+    background-color: rgb(250, 228, 200);
+    font-family: 'Benne', serif;
+    animation: animate 1s ;
+    
+}
+#container1{
+    height: 500px;
+    width: 100%;
+   
+    background:url(https://images.unsplash.com/photo-1592241724006-f068a14cc7dc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=751&q=80) no-repeat center center/cover ;
+}
+
+@keyframes animate{
+    0%{
+        transform: translatex(-400px);
+    }
+ }
+
+#heading1{
+    font-size: 93px;
+    text-align: right;
+    margin-right: 90px;
+    
+}
+#para1{
+    font-size: 43px;
+    text-align: right;
+    margin-right: 60px;
+    margin-top: -60px;
+
+}
+
+#heading2{
+    text-align: center;
+   font-size: 54px;
+  
+}
+#companies img{
+    align-content: center;
+    height: 150px;
+    width: 200px;
+    margin: 33px;
+    border: 2px solid black;
+    border-radius: 50%;
+    padding: 10px;
+   
+}
+#companies img:hover{
+    background-color: chocolate;
+}
+#heading3{
+    font-size: 54px;
+}
+.videos{
+    margin-top: 20px;
+    padding: 20px;
+}

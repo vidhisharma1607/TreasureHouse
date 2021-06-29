@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url(/images/socialemoji.png),pointer;
+    background-color: rgb(206, 250, 200);
+    font-family: 'Viaoda Libre', cursive;
+  
+}
+
+
+#container1{
+    height: 500px;
+    width: 100%;
+    opacity: 0.9;
+    animation: animate 2.3s ;
+    background:url(https://www.oneclearmessage.com/wp-content/uploads/2014/02/Key-components-of-EI.003.jpg) no-repeat center center/cover ;
+    
+}
+@keyframes animate{
+    0%{
+        transform: translatey(-400px);
+    }
+ }
+
+#container1:hover{
+    opacity: 1;
+}
+#heading1{
+    font-size: 93px;
+    text-align: right;
+    margin-right: 90px;
+    color: rgb(24, 21, 23);
+}
+#para1{
+    font-size: 43px;
+    text-align: right;
+    margin-right: 60px;
+    color: rgb(10, 9, 9);
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 3fr ;
+}
+#headings{
+    font-size: 44px;
+    font-family:'Times New Roman', Times, serif;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    margin-top: 20px;
+    color: rgb(36, 3, 78);
+}
+#website img{
+    align-content: center;
+    height: 150px;
+    width: 200px;
+    margin: 43px;
+    border: 4px solid rebeccapurple;
+    border-radius: 20px;
+    /* opacity: 0.7; */
+    padding: 20px;
+}
+#website img:hover{
+    background-color: rgb(2, 209, 130);
+}
+.videos
+{ font-size: 25px;
+    margin-top: 20px;
+    padding: 20px;
+}

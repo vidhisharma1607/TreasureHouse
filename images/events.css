@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url(event-emoji.png),pointer;
+    background-color: rgb(238, 200, 250);
+    font-family: 'Viaoda Libre', cursive;
+    overflow:scroll ;
+    
+    animation: animate 1s ;
+    
+}
+@keyframes animate{
+    0%{
+        transform: translatey(-400px);
+        opacity: 1;
+    }
+ }
+ 
+
+
+
+
+#container1{
+    height: 500px;
+    width: 100%;
+    opacity: 0.8;
+    background:url(https://images.unsplash.com/photo-1523521803700-b3bcaeab0150?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) no-repeat center center/cover ;
+}
+#heading1{
+    font-size: 93px;
+    text-align: right;
+    margin-right: 90px;
+    color: rgb(250, 242, 247);
+    
+}
+#para1{
+    font-size: 43px;
+    text-align: right;
+    margin-right: 60px;
+    color: white;
+
+
+}
+
+#heading2 {
+    align-items: center;
+    text-align: center;
+      font-size: 34px;
+}
+
+.headings{
+    display: grid;
+    grid-template-columns: 4fr 1fr 4fr;
+    font-size: 75px;
+    line-height: -50px;
+}
+#sites1 img{
+    width: 350px;
+    height: 250px;
+    opacity: 0.8;
+}
+#sites1 img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}
+
+#sites2 {
+    text-align: right;
+    padding: 20px;
+ 
+   
+}
+#heading{
+    background-color: cadetblue;
+    padding: 30px;
+}

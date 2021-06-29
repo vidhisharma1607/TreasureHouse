@@ -1,0 +1,115 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    cursor: url('/images/health-new.png'),pointer;
+    background-color: rgb(186, 222, 247);
+    font-family: 'Akaya Kanadaka', cursive;
+    
+    
+}
+#container1{
+    height: 500px;
+    width: 100%;
+    animation: animate 2.5s ;
+    background:url(https://images.unsplash.com/photo-1619794555233-e563edf91173?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80) no-repeat center center/cover ;
+}
+@keyframes animate{
+    0%{
+        transform: translateX(300px);
+    }
+ }
+
+#heading1{
+    font-size: 93px;
+    text-align: right;
+    margin-right: 90px;
+    color: rgb(250, 242, 247);
+    
+}
+#para1{
+    font-size: 43px;
+    text-align: right;
+    margin-right: 60px;
+    color: white;
+
+
+}
+#heading2{
+    font-size: 45px;
+    text-align: center;
+    margin: 44px;
+    text-decoration: underline;
+}
+.tampelate{
+    display: flex;
+    
+}
+
+#tampelate1{
+    height: 400px;
+    width: 450px;
+            /* border: 2px solid green; */
+    margin: 20px 20px;
+    background: url(https://images.unsplash.com/photo-1606619353146-a7732c58345d?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80) no-repeat center center/cover;
+    border-radius: 50%;
+    background-color: rgb(219, 234, 235);
+    text-align: center;
+    /* box-shadow: 10PX 10PX 10px rgb(87, 106, 116); */
+    /* overflow-x: scroll; */
+    opacity: 0.7;
+    
+
+}
+#tampelate1:hover{
+    opacity: 1;
+}
+
+#tampelate2{
+    height: 400px;
+    width: 450px;
+            /* border: 2px solid green; */
+    margin: 20px 20px;
+    border-radius: 50%;
+    background-color: rgb(219, 234, 235);
+    text-align: center;
+    /* box-shadow: 10PX 10PX 10px rgb(87, 106, 116); */
+    background: url(https://images.unsplash.com/photo-1593131492215-67b479a3d915?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=701&q=80) no-repeat center center/cover ;
+    opacity: 0.7;
+}
+#tampelate2:hover{
+    opacity: 1;
+
+}
+
+#tampelate3{
+    height: 400px;
+    width: 450px;
+            /* border: 2px solid green; */
+    margin: 20px 20px;
+    border-radius: 50%;
+    background-color: rgb(219, 234, 235);
+    text-align: center;
+    /* box-shadow: 10PX 10PX 10px rgb(87, 106, 116);
+ */
+ background: url(https://images.unsplash.com/photo-1584364809491-49b3b5437cf8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=774&q=80) no-repeat center center/cover ;
+ opacity: 0.7;
+}
+#tampelate3:hover{
+    opacity: 1;
+}
+ .blocks{
+     margin-top: 150px;
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     font-size: 43px;
+     color: rgb(5, 10, 87);
+ }
+ .videos{
+     padding: 15px;
+     
+
+ }
